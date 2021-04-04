@@ -5,13 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pruebaGit</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/iconospagina/Favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/iconospagina/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/iconospagina/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/iconospagina/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/iconospagina/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/iconospagina/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/iconospagina/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/iconospagina/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/iconospagina/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/iconospagina/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/iconospagina/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/iconospagina/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/iconospagina/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/iconospagina/Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header>
+        <nav class="main-menu">
+            <a href="#">
+                <svg class="main-menu__icono-nav" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg>
+            </a>
 
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="main-menu__icono-search" width="100" height="100"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="10" cy="10" r="7" />
+                    <line x1="21" y1="21" x2="15" y2="15" />
+                </svg>
+            </a>
+
+            <a href="#"> <img class="main-menu__logo-principal" src="assets/iconospagina/logoprincipal.svg"
+                    alt="logo_healthline">
+            </a>
+
+            <input class="main-menu__input-search" type="text" placeholder="Search Healthline">
+
+            <a href="#" class="main-menu__enlace-suscribir">
+                subscribe
+            </a>
+        </nav>
     </header>
     <main class="main-main">
+        <section>
+            <h2 class="main-main__section1-titulo">FEATURED HEALTH TOPICS</h2>
 
+            <a target="_blank" href="https://www.healthline.com/coronavirus"><img class="main-main__section1-img"
+                    src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/000test/Covid19-2121.png?w=630"
+                    alt="Coronavirus 2021">
+            </a>
+
+            <a target="_blank" href="https://www.healthline.com/nutrition"> <img class="main-main__section1-img"
+                    src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/2016-holiday-card/Avotoast.jpg?w=630"
+                    alt="Nutrition">
+            </a>
+
+            <a target="_blank" href="https://www.healthline.com/parenthood"> <img class="main-main__section1-img"
+                    src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/parenthood.png?w=630"
+                    alt="Parenthood">
+            </a>
+
+            <a target="_blank" href="https://www.healthline.com/program/wellness"> <img class="main-main__section1-img"
+                    src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/womens-wellness.png?w=630"
+                    alt="Womens Wellness">
+            </a>
+        </section>
+
+        <section>
+            <H2 class="main-main__section2-titulo">LATEST STORIES</H2>
+            <figure>
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/all-adults-could-be-eligible-for-covid-19-vaccine-by-may-1">
+                    <img class="main-main__section2-img"
+                        src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/03/Covid_Vaccine_Line_Parking_Lot_732x549-thumbnail-732x549.jpg?w=1092"
+                        alt="Fila sana distancia"></a>
+                <figcaption class="main-main__section2-caption">COVID-19 VACCINE</figcaption>
+            </figure>
+
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/all-adults-could-be-eligible-for-covid-19-vaccine-by-may-1">
+                <h3 class="main-main__section2-subtitulo">All Adults Could Be Eligible for COVID-19 Vaccine by May 1
+                </h3>
+            </a>
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/all-adults-could-be-eligible-for-covid-19-vaccine-by-may-1">
+                <p class="main-main__section2-p">President Biden has set a target date of May 1 for all U.S. adults to
+                    be eligible for the shots, saying it puts the nation on a path to get closer to “normal” by July 4.
+                </p>
+            </a>
+            <div class="main-main__section2-button">
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/all-adults-could-be-eligible-for-covid-19-vaccine-by-may-1">READ
+                    MORE</a>
+            </div>
+
+            <figure>
+                <a target="_blank"
+                    href="https://www.healthline.com/health/mental-health/anti-asian-racism-violence-and-virus-blaming-during-the-pandemic">
+                    <img class="main-main__section2-img"
+                        src="https://post.healthline.com/wp-content/uploads/2021/03/portrait-eyes-closeup-732x549-thumbnail-732x549.jpg"
+                        alt="Anti-Asian Racism">
+                </a>
+                <figcaption class="main-main__section2-caption">RACISM & HEALTH</figcaption>
+            </figure>
+            <a target="_blank"
+                href="https://www.healthline.com/health/mental-health/anti-asian-racism-violence-and-virus-blaming-during-the-pandemic">
+                <h3 class="main-main__section2-subtitulo">
+                    Anti-Asian Racism and Violence: We Need to Talk About This
+                </h3>
+            </a>
+            <a target="_blank"
+                href="https://www.healthline.com/health/mental-health/anti-asian-racism-violence-and-virus-blaming-during-the-pandemic">
+                <p class="main-main__section2-p">The pandemic is harming Asian Americans. We can change that.</p>
+            </a>
+            <div class="main-main__section2-button">
+                <a target="_blank"
+                    href="https://www.healthline.com/health/mental-health/anti-asian-racism-violence-and-virus-blaming-during-the-pandemic">READ
+                    MORE
+                </a>
+            </div>
+
+            <figure>
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/how-staying-heart-healthy-will-decrease-your-cancer-risk">
+                    <img class="main-main__section2-img"
+                        src="https://post.healthline.com/wp-content/uploads/2021/03/Female_Jump_Rope_732x549-thumbnail-732x549.jpg"
+                        alt="Chica saltando"></a>
+                <figcaption class="main-main__section2-caption">HEART HEALTH</figcaption>
+            </figure>
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/how-staying-heart-healthy-will-decrease-your-cancer-risk">
+                <h3 class="main-main__section2-subtitulo">How Staying Heart-Healthy Will Decrease Your Cancer Risk</h3>
+            </a>
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/how-staying-heart-healthy-will-decrease-your-cancer-risk">
+                <p class="main-main__section2-p">Habits used to combat heart disease may help reduce cancer risk as
+                    well.</p>
+            </a>
+            <div class="main-main__section2-button">
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/how-staying-heart-healthy-will-decrease-your-cancer-risk">READ
+                    MORE</a>
+            </div>
+
+            <figure>
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/watch-out-for-these-covid-19-vaccination-scams">
+                    <img class="main-main__section2-img"
+                        src="https://post.healthline.com/wp-content/uploads/2021/03/Covid_Vaccine_Line_732x549-thumbnail-1-732x549.jpg"
+                        alt="Anciana segura"></a>
+                <figcaption class="main-main__section2-caption">STAY SAFE</figcaption>
+            </figure>
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/watch-out-for-these-covid-19-vaccination-scams">
+                <h3 class="main-main__section2-subtitulo">Watch Out for These COVID-19 Vaccination Scams</h3>
+            </a>
+            <a target="_blank"
+                href="https://www.healthline.com/health-news/watch-out-for-these-covid-19-vaccination-scams">
+                <p class="main-main__section2-p">Scammers are using different methods to get into your wallet and
+                    personal data.</p>
+            </a>
+            <div class="main-main__section2-button">
+                <a target="_blank"
+                    href="https://www.healthline.com/health-news/watch-out-for-these-covid-19-vaccination-scams">READ
+                    MORE</a>
+            </div>
+        </section>
     </main>
     <footer class="footer">
 
